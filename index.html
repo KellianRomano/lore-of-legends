@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lore of Legends</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/a14c6674f9.js" crossorigin="anonymous"></script>
+	</head>
+
+
+
+	<body>
+
+		<nav class="navbar">
+			<div class="content2">
+				<div class="logo"><a href="index.html" class="active">LoreOfLegends</a></div>
+				<ul class="menu-list">
+					<div class="icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>	
+					<li><a href="profile.html">About Me</a></li>
+					<li><a href="freljord.html">Freljord</a></li>
+					<li><a href="demacia.html">Demacia</a></li>
+					<li><a href="zaun-piltover.html">Piltover & Zaun</a></li>
+					<li><a href="noxus.html">Noxus</a></li>
+				</ul>
+
+				<div class="icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>	
+
+			</div>	
+			
+		</nav>
+
+		<div class="banner" id="banner-F">
+			<div class="container">
+				<h1 id="hfrel">Freljord</h1>
+				<p>The Freljord is a harsh and unforgiving land, where demi-gods walk the earth and the people are born warriors. While there are many individual tribes, the three greatest are the Avarosans, the Winter’s Claw, and the Frostguard, each uniquely shaped by their will to survive. It is also the only place on Runeterra where True Ice can be found.</p>
+				<a href="freljord.html" class="btn-F">Discover ➤</a>
+			</div>
+		</div>
+
+		<div class="banner" id="banner-D">
+			<div class="container container-right-centered">
+				<h1 id="hdem">Demacia</h1> 
+				<p> A strong, lawful kingdom with a prestigious military history, Demacia's people have always valued the ideals of justice, honor, and duty most highly, and are fiercely proud of their cultural heritage. But in spite of these lofty principles, this largely self-sufficient nation has grown more insular and isolationist in recent centuries.</p>
+				<a href="demacia.html" class="btn-D">Discover ➤</a>
+			</div>
+		</div>
+
+		<div class="banner" id="banner-ZP">
+			<div class="container">
+				<h1 id="hpil">Piltover & Zaun</h1>
+				<p>Dual city-states that control the major trade routes between Valoran and Shurima. Home both to visionary inventors and their wealthy patrons, the divide between social classes is becoming more dangerous</p>
+				<a href="zaun-piltover.html" class="btn-ZP">Discover ➤</a>
+			</div>
+		</div>
+
+		<div class="banner" id="banner-N">
+			<div class="container container-right-centered">
+				<h1 id="hnox">Noxus</h1>
+				<p>Noxus is a brutal, expansionist empire, yet those who look beyond its warlike exterior will find an unusually inclusive society. Anyone can rise to a position of power and respect if they display the necessary aptitude, regardless of social standing, background, or wealth. Noxians value strength above all, though that strength can manifest in many different ways.</p>
+				<a href="noxus.html" class="btn-N">Discover ➤</a>
+			</div>
+		</div>
+
+		<script>
+			const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menu = document.querySelector(".menu-list");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=> {
+				menu.classList.add("active");
+				menuBtn.classList.add("hide");
+				body.classList.add("disabledScroll");
+			}
+			cancelBtn.onclick = ()=> {
+				menu.classList.remove("active");	
+				menuBtn.classList.remove("hide");
+				body.classList.remove("disabledScroll");
+			}
+
+			window.onscroll = ()=> {
+				this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+			}
+
+
+		</script>
+
+	</body>
+
+</html>

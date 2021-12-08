@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Roboto:wght@400;500&display=swap');
+@import url(components/button.css);
+@import url(components/card.css);
+@import url(components/container.css);
+@import url(components/navbar.css);
+@import url(components/banner.css);
+
+
+body {
+	margin: 0px;
+	background-color: #AAAAAA;
+}
+
+h1 {
+	color: white;
+}
+
+#hfrel {
+	text-shadow: 1px 1px 2px black, 0 0 1em #2196f3, 0 0 0.2em #2196f3;
+}
+
+#hdem {
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+#hpil {
+	text-shadow: 1px 1px 2px black, 0 0 1em #49FF00, 0 0 0.2em #49FF00;
+}
+
+#hnox {
+	text-shadow: 1px 1px 2px black, 0 0 1em #E40017, 0 0 0.2em #E40017;
+}
+
+p {
+	color: rgb(244, 249, 249);
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+
+/* Individual index */
+
+
+#text-site {
+	color: rgb(244, 249, 249);
+	text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+	font-size: 16px;
+}
+
+
+/* Titels */
+
+#dem2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+	font-size: 24px;
+}
+
+
+#frel2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em #2196f3;
+	font-size: 24px;
+}
+
+#P2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em #3E00FF;
+	font-size: 24px;
+}
+
+#Z2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em #49FF00;
+	font-size: 24px;
+}
+
+#nox2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em #E40017;
+	font-size: 24px;
+}
+
+
+
+
+
+
+/* Media queries */
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+
+/* Freljord */
+
+@media (max-width: 960px) {
+	.container2 {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container2 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container2 {
+		width: 500px;
+		height: 1200px;
+	}
+}
+
+/* Noxus */
+
+@media (max-width: 960px) {
+	.container3 {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container3 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container3 {
+		width: 500px;
+		height: 1200px;
+	}
+}
+
+/* Piltover & Zaun */
+
+@media (max-width: 960px) {
+	.container4 {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container4 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container4 {
+		width: 500px;
+		height: 1200px;
+	}
+}
+
+/* Demacia */ 
+
+@media (max-width: 960px) {
+	.container5 {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container5 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container5 {
+		width: 500px;
+		height: 1200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

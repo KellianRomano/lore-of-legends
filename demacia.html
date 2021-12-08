@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Demacia</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/a14c6674f9.js" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body> 
+
+		<nav class="navbar">
+			<div class="content2">
+				<div class="logo"><a href="index.html">LoreOfLegends</a></div>
+				<ul class="menu-list">
+					<div class="icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>	
+					<li><a href="profile.html">About Me</a></li>
+					<li><a href="freljord.html">Freljord</a></li>
+					<li><a href="demacia.html" class="active">Demacia</a></li>
+					<li><a href="zaun-piltover.html">Piltover & Zaun</a></li>
+					<li><a href="noxus.html">Noxus</a></li>
+				</ul>
+
+				<div class="icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>	
+
+			</div>	
+			
+		</nav>
+
+
+		<div class="banner" id="banner-D2">
+			<div class="container">
+				<h1 id="dem2">Demacia</h1> 
+				<p id="text-site"> Astrong, lawful kingdom with a prestigious military history, Demacia’s people have always valued the ideals of justice, honor, and duty most highly, and are fiercely proud of their cultural heritage. But in spite of these lofty principles, this largely self-sufficient nation has grown more insular and isolationist in recent centuries. <br><br>
+
+				Now, Demacia is a kingdom in turmoil. <br><br>
+
+				The capital, the Great City of Demacia, was founded as a refuge from sorcery after the nightmare of the Rune Wars, and built upon the riddle of petricite—a peculiar white stone that dampens magical energy. It is from here that the royal family has long seen to the defense of the outlying towns and villages, farmland, forests, and mountains rich with mineral resources. <br><br>
+
+				However, following the sudden death of King Jarvan III, the other noble families have not yet approved the succession of his sole heir, young Prince Jarvan, to the throne. <br><br>
+
+				Those who dwell beyond the heavily guarded borders are increasingly viewed with suspicion, and many former allies have begun to look elsewhere for protection, in these uncertain times. Some dare to whisper that the golden age of Demacia has passed, and unless its people are willing to adapt to a changing world—something many believe they are simply incapable of doing—the kingdom’s decline may be inevitable. <br><br>
+
+				And all the petricite in the land will not protect Demacia from itself. <br><br>
+				</p>
+
+			</div>
+		</div>
+
+		<div class="container5">
+				
+			<div class="card5">
+				<div class="imgA">
+					<img src="image/fiora.jpg" alt="Fiora">
+				</div>
+				<div class="content">
+					<h2><br>Fiora</h2>
+					<p>The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and political cunning as she is for the speed of her rapier.</p>
+				</div>
+			</div>
+
+			<div class="card5">
+				<div class="imgA">
+					<img src="image/galio.jpg" alt="Galio">
+				</div>
+				<div class="content">
+					<h2><br>Galio</h2>
+					<p> Outside the Great City of Demacia, the stone colossus Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life.</p>
+				</div>
+			</div>
+
+			<div class="card5">
+				<div class="imgA">
+					<img src="image/lux.jpg" alt="Lux">
+				</div>
+				<div class="content">
+					<h2><br>Lux</h2>
+					<p>Able to bend light to her will, she grew up dreading discovery and exile, and was forced to keep her power secret in order to preserve her family’s noble status</p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menu = document.querySelector(".menu-list");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=> {
+				menu.classList.add("active");
+				menuBtn.classList.add("hide");
+				body.classList.add("disabledScroll");
+			}
+			cancelBtn.onclick = ()=> {
+				menu.classList.remove("active");	
+				menuBtn.classList.remove("hide");
+				body.classList.remove("disabledScroll");
+			}
+
+			window.onscroll = ()=> {
+				this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+			}
+
+
+		</script>
+
+	</body>	
+
+</html>

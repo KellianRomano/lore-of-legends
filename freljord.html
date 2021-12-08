@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Freljord</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/a14c6674f9.js" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body> 
+
+		<nav class="navbar">
+			<div class="content2">
+				<div class="logo"><a href="index.html" class="active">LoreOfLegends</a></div>
+				<ul class="menu-list">
+					<div class="icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>	
+					<li><a href="profile.html">About Me</a></li>
+					<li><a href="freljord.html">Freljord</a></li>
+					<li><a href="demacia.html">Demacia</a></li>
+					<li><a href="zaun-piltover.html">Piltover & Zaun</a></li>
+					<li><a href="noxus.html">Noxus</a></li>
+				</ul>
+
+				<div class="icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>	
+
+			</div>	
+			
+		</nav>
+
+		<div class="banner" id="banner-F2">
+			<div class="container">
+				<h1 id="frel2">Freljord</h1>
+				<p id="text-site">The Freljord is a harsh and unforgiving place—where the people are born warriors, who must persevere against all odds. <br><br>
+				Proud and fiercely independent, the tribes of the Freljord are often considered wild, rugged, and “uncivilized” by their neighbors across Valoran, who do not know the ancient traditions that shaped them. Many thousands of years ago, the alliance between the sisters Avarosa, Serylda, and Lissandra was shattered in a war that unknowingly threatened all of Runeterra, plunging the northern lands into chaos, and near-constant winter. Now, only those truly exceptional mortals who seem immune to the ravages of fire or ice seem destined, or able, to lead. <br><br>
+				Despite the best efforts of the Frostguard, myths and legends still endure of the old gods, the enigmatic yetis, and restless spirit walker shamans. The raiders of the Winter’s Claw range further with each passing year, harrying the borders of Demacia to the south, and the frontiers of Noxus to the east. Finally, seeking a more peaceful future, the fractious independent tribes and clans have begun to offer their allegiance to Ashe, young queen of the Avarosans. <br><br>
+				Even so, the portents are grim. War is surely returning to the Freljord, and none can hope to escape it.</p>
+			</div>
+		</div>
+
+
+		<div class="container2">
+				
+			<div class="card">
+				<div class="imgA">
+					<img src="image/asge.jpg" alt="Ashe">
+				</div>
+				<div class="content">
+					<h2><br>Ashe</h2>
+					<p>Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north.</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="imgA">
+					<img src="image/braum.jpg" alt="Braum">
+				</div>
+				<div class="content">
+					<h2><br>Braum</h2>
+					<p>Blessed with massive biceps and an even bigger heart, Braum is a beloved Iceborn hero of the Freljord.</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="imgA">
+					<img src="image/vol.jpg" alt="Volibear">
+				</div>
+				<div class="content">
+					<h2><br>Volibear</h2>
+					<p>Destructive, wild, and stubbornly resolute, he existed before mortals walked the Freljord’s tundra, and is fiercely protective of the lands that he and his demi-god kin created.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<script>
+			const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menu = document.querySelector(".menu-list");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=> {
+				menu.classList.add("active");
+				menuBtn.classList.add("hide");
+				body.classList.add("disabledScroll");
+			}
+			cancelBtn.onclick = ()=> {
+				menu.classList.remove("active");	
+				menuBtn.classList.remove("hide");
+				body.classList.remove("disabledScroll");
+			}
+
+			window.onscroll = ()=> {
+				this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+			}
+
+
+		</script>
+
+
+	</body>	
+</html>

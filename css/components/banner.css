@@ -1,0 +1,56 @@
+.banner {
+	background-position: center;
+	background-size: cover;
+	padding: 150px 24px;
+	margin-bottom: 8px;
+}
+
+.banner h1 {
+  font-size: 54px;
+}
+
+.banner p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+#banner-F {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/frel.jpg);
+}
+
+#banner-D {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/demacia.jpg);
+}
+
+#banner-ZP {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/pil.jpg);
+}
+
+#banner-N {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/noxus.jpg);
+}
+
+#banner-dark {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/black.jpg);
+}
+
+
+
+
+
+#banner-F2 {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/abyss.jpg);
+}
+
+#banner-D2 {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/trone.jpg);
+}
+
+#banner-N2 {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/bastion.jpg);
+}
+
+#banner-ZP2 {
+	background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%), url(../../image/zaun.jpg);
+}

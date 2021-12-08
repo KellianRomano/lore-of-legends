@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>About Me</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/a14c6674f9.js" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body> 
+		
+		<nav class="navbar">
+			<div class="content2">
+				<div class="logo"><a href="index.html">LoreOfLegends</a></div>
+				<ul class="menu-list">
+					<div class="icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>	
+					<li><a href="profile.html" class="active">About Me</a></li>
+					<li><a href="freljord.html">Freljord</a></li>
+					<li><a href="demacia.html">Demacia</a></li>
+					<li><a href="zaun-piltover.html">Piltover & Zaun</a></li>
+					<li><a href="noxus.html">Noxus</a></li>
+				</ul>
+
+				<div class="icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>	
+
+			</div>	
+			
+		</nav>
+
+
+		<div class="banner" id="banner-dark">
+
+			<p>Nothing fancy on this page just a disclaimer. <br><br> 
+			My name is Kellian and I'm a Student at Kedge BS (Marseille, South of France). This semester I followed the class "coding skill". It was my first experience with html and css language and it was really exciting. We were asked to make a landing page for a website, but I took fun and decided to do a bit more. <br><br> 
+			I aim to work with riot later and i'm a league lore fan, so I decided to make the landing page about it. <br><br>
+			All the content (images, characters, lore, names, descriptions...) are taken from League of Legend Universe website and I just added my "coding skills". <a href="https://universe.leagueoflegends.com/en_US/?_gl=1*1pmmkvf*_ga*MTc3NzY1NTUyNi4xNTY5NTc2MzEx*_ga_FXBJE5DEDD*MTYzODcwNTcwNy4yMC4wLjE2Mzg3MDU3MTAuNTc." target="blank">Official website ➤</a> <br><br>
+			If you want me to delete it, please contact me here: <a href="https://www.facebook.com/kellian.romano/" target="blank">My Facebook ➤</a> <br><br>
+			Thank you for your understanding, have a nice day !
+			</p>
+
+		</div>
+
+		<script>
+			const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menu = document.querySelector(".menu-list");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=> {
+				menu.classList.add("active");
+				menuBtn.classList.add("hide");
+				body.classList.add("disabledScroll");
+			}
+			cancelBtn.onclick = ()=> {
+				menu.classList.remove("active");	
+				menuBtn.classList.remove("hide");
+				body.classList.remove("disabledScroll");
+			}
+
+			window.onscroll = ()=> {
+				this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+			}
+
+
+		</script>
+
+
+
+	</body>	
+
+</html>

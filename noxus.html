@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Noxus</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/a14c6674f9.js" crossorigin="anonymous"></script>
+	</head>
+
+
+	<body> 
+
+		<nav class="navbar">
+			<div class="content2">
+				<div class="logo"><a href="index.html">LoreOfLegends</a></div>
+				<ul class="menu-list">
+					<div class="icon cancel-btn">
+						<i class="fas fa-times"></i>
+					</div>	
+					<li><a href="profile.html">About Me</a></li>
+					<li><a href="freljord.html">Freljord</a></li>
+					<li><a href="demacia.html">Demacia</a></li>
+					<li><a href="zaun-piltover.html">Piltover & Zaun</a></li>
+					<li><a href="noxus.html" class="active">Noxus</a></li>
+				</ul>
+
+				<div class="icon menu-btn">
+					<i class="fas fa-bars"></i>
+				</div>	
+
+			</div>	
+			
+		</nav>
+
+		<div class="banner" id="banner-N2">
+			<div class="container">
+				<h1 id="nox2">Noxus</h1>
+				<p id="text-site">Noxus is a powerful empire with a fearsome reputation. To those beyond its borders, it is brutal, expansionist, and threatening, yet those who look past its warlike exterior see an unusually inclusive society, where the strengths and talents of its people are respected and cultivated. <br><br>
+
+				The Noxii were once fierce barbarian tribes, until they stormed the ancient city that now lies at the heart of their domain. Under threat from all sides, they aggressively took the fight to their enemies, pushing their borders outward with each passing year. This struggle for survival has made modern Noxians a deeply proud people who value strength above all—though that strength can manifest in many different forms. <br><br>
+
+				Anyone can rise to a position of power and respect within Noxus if they display the necessary aptitude, regardless of social standing, background, homeland, or wealth. Those who are able to wield magic are held in particularly high esteem, and are actively sought out in order that their special talents may be honed and best harnessed for the benefit of the empire. <br><br>
+
+				But in spite of this meritocratic ideal, the old noble houses still wield considerable power… and some fear that the greatest threat to Noxus comes not from its enemies, but from within.
+				</p>
+			</div>
+		</div>
+
+
+
+		<div class="container3">
+				
+			<div class="card2">
+				<div class="imgA">
+					<img src="image/swaiin.jpg" alt="Swain">
+				</div>
+				<div class="content">
+					<h2><br>Swain</h2>
+					<p>Jericho Swain is the visionary ruler of Noxus. Though he was cast down and crippled in the Ionian wars, his left arm severed, he seized control of the empire with ruthless determination… and a new, demonic hand. </p>
+				</div>
+			</div>
+
+			<div class="card2">
+				<div class="imgA">
+					<img src="image/katarina.jpg" alt="Katarina">
+				</div>
+				<div class="content">
+					<h2><br>Katarina</h2>
+					<p>The Sinister Blade. <br> Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber.</p>
+				</div>
+			</div>
+
+			<div class="card2">
+				<div class="imgA">
+					<img src="image/talon.jpeg" alt="Talon">
+				</div>
+				<div class="content">
+					<h2><br>Talon</h2>
+					<p>Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised.</p>
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menu = document.querySelector(".menu-list");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=> {
+				menu.classList.add("active");
+				menuBtn.classList.add("hide");
+				body.classList.add("disabledScroll");
+			}
+			cancelBtn.onclick = ()=> {
+				menu.classList.remove("active");	
+				menuBtn.classList.remove("hide");
+				body.classList.remove("disabledScroll");
+			}
+
+			window.onscroll = ()=> {
+				this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+			}
+
+
+		</script>
+
+	</body>	
+	
+</html>

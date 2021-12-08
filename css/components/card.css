@@ -1,0 +1,279 @@
+/* Freljord */
+
+.container2 .card {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #170055;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgb(0, 255, 240);
+  transition: 0.3s ease-in-out;
+}
+
+.container2 .card:hover {
+  height: 420px;
+}
+
+.container2 .card .imgA {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 202px rgb(62, 0, 255);
+
+}
+
+.container2 .card .imgA img {
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container2 .card .content {
+  position: relative;
+  max-resolution: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(171, 109, 35);
+  text-shadow: 1px 1px 2px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0,3s ease-in-out;
+}
+
+.container2 .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+
+/* Noxus */
+
+
+
+.container3 .card2 {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #3D0000;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px #FF304F;
+  transition: 0.3s ease-in-out;
+}
+
+.container3 .card2:hover {
+  height: 420px;
+}
+
+.container3 .card2 .imgA {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 202px #FF0000;
+
+}
+
+.container3 .card2 .imgA img {
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container3 .card2 .content {
+  position: relative;
+  max-resolution: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(171, 109, 35);
+  text-shadow: 1px 1px 2px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0,3s ease-in-out;
+}
+
+.container3 .card2:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+
+/* Zaun */
+
+.container4 .card3 {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #064635;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px #49FF00;
+  transition: 0.3s ease-in-out;
+}
+
+.container4 .card3:hover {
+  height: 420px;
+}
+
+.container4 .card3 .imgA {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 202px #116530;
+
+}
+
+.container4 .card3 .imgA img {
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container4 .card3 .content {
+  position: relative;
+  max-resolution: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(171, 109, 35);
+  text-shadow: 1px 1px 2px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0,3s ease-in-out;
+}
+
+.container4 .card3:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+/* Piltover */
+
+.container4 .card4 {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #39A2DB;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px #3E00FF;
+  transition: 0.3s ease-in-out;
+}
+
+.container4 .card4:hover {
+  height: 420px;
+}
+
+.container4 .card4 .imgA {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 202px #0F00FF;
+
+}
+
+.container4 .card4 .imgA img {
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container4 .card4 .content {
+  position: relative;
+  max-resolution: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(171, 109, 35);
+  text-shadow: 1px 1px 2px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0,3s ease-in-out;
+}
+
+.container4 .card4:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+
+/* Demacia */
+
+.container5 .card5 {
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: #393E46;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px blue;
+  transition: 0.3s ease-in-out;
+}
+
+.container5 .card5:hover {
+  height: 420px;
+}
+
+.container5 .card5 .imgA {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+  box-shadow: 0 5px 202px white;
+
+}
+
+.container5 .card5 .imgA img {
+  max-width: 100%;
+  border-radius: 4px;
+
+}
+
+.container5 .card5 .content {
+  position: relative;
+  max-resolution: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: rgb(171, 109, 35);
+  text-shadow: 1px 1px 2px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0,3s ease-in-out;
+}
+
+.container5 .card5:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}

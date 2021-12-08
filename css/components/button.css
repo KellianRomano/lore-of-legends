@@ -1,0 +1,65 @@
+/* Index.html */
+
+/*Freljord*/
+
+.btn-F {
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+	border: solid 3px white;
+	text-decoration: none;
+}
+
+.btn-F:hover {
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition: 0.5s;
+}
+
+/*Demacia*/
+
+.btn-D {
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+	border: solid 3px white;
+	text-decoration: none;
+}
+
+.btn-D:hover {
+	box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+	transition: 0.5s;
+}
+
+/*Piltover & Zaun*/
+
+.btn-ZP {
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+	border: solid 3px white;
+	text-decoration: none;
+}
+
+.btn-ZP:hover {
+	box-shadow: 0 0 10px #49FF00, 0 0 40px #49FF00, 0 0 80px #49FF00;
+	transition: 0.5s;
+}
+
+/* Noxus */
+
+.btn-N {
+	color: white;
+	padding: 12px;
+	width: 120px;
+	border-radius: 8px;
+	border: solid 3px white;
+	text-decoration: none;
+}
+
+.btn-N:hover {
+	box-shadow: 0 0 10px #E40017, 0 0 40px #E40017, 0 0 80px #E40017;
+	transition: 0.5s;
+}
